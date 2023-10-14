@@ -2,7 +2,7 @@
 
 ## [🚀Live Site](https://fast-react-pizza-codepapa.vercel.app)
 
-![Screenshot](./public//thumbnail-preview.png)
+![Screenshot](./public/thumbnail-preview.png)
 
 ## Author
 
