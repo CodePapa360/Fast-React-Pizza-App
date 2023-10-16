@@ -2,7 +2,7 @@
 
 <h2 align="center">
 
-[🚀Live Site](https://fast-react-pizza-codepapa.vercel.app)
+[🌐WebSite](https://fast-react-pizza-codepapa.vercel.app)
 
 </h2>
 
