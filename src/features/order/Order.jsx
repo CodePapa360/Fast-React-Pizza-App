@@ -24,7 +24,6 @@ function Order() {
     [fetcher],
   );
 
-  console.log(fetcher.data);
   // Everyone can search for all orders, so for privacy reasons we're gonna gonna exclude names or address, these are only for the restaurant staff
   const {
     id,
@@ -34,6 +33,7 @@ function Order() {
     orderPrice,
     estimatedDelivery,
     cart,
+    customer,
   } = order;
 
   const deliveryIn = calcMinutesLeft(estimatedDelivery);
@@ -54,6 +54,8 @@ function Order() {
           </span>
         </div>
       </div>
+
+      <p>Customer: {customer.toUpperCase()}</p>
 
       <div className="flex flex-wrap items-center justify-between gap-2 bg-stone-200 px-6 py-5">
         <p className="font-medium">
